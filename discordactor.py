@@ -30,7 +30,7 @@ async def on_message(message):
 
     # Pass the user input to GPT-4
     response = openai.ChatCompletion.create(
-        model="gpt-4",
+        model="gpt-4-0613",
         messages=[
             {
                 "role": "system",
